@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+    <title>FinalTest</title>
+  </head>
+  <body ng-app="FinalTest">
+    <nav-bar views="routes" on-click="stateGo(name)" current-view="currentView"></nav-bar>
+    <ui-view></ui-view>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/controllers/jokes.js"></script>
+    <script src="js/services/jokes.js"></script>
+    <script src="js/controllers/products.js"></script>
+    <script src="js/services/products.js"></script>
+    <script src="js/controllers/todo.js"></script>
+    <script src="js/services/todo.js"></script>
+    <script src="js/components/navBar/navBar.js"></script>
+  </body>
+</html>

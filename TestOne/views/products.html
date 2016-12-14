@@ -1,0 +1,27 @@
+<h1>Products Page</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Description</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="prod in pc.products">
+            <td>
+                {{prod.name}}
+            </td>
+            <td>
+                <img src="{{prod.imgThumbnail}}", id="img"/>
+            </td>
+            <td>
+                {{prod.description}}
+            </td>
+            <td>
+                {{prod.amt}}
+            </td>
+        </tr>
+    </tbody>
+</table>

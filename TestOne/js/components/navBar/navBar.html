@@ -1,0 +1,7 @@
+<!-- <a ui-sref="jokes" ui-sref-active="active">Jokes</a>
+<a ui-sref="toDo" ui-sref-active="active">To Do List</a>
+<a ui-sref="products" ui-sref-active="active">Products</a> -->
+
+<!-- <a ui-sref="{{view.name}}" ui-sref-active="active" ng-repeat="view in $ctrl.views">{{view.label}}</a> -->
+
+<a ng-click="$ctrl.viewClicked(view)" ng-repeat="view in $ctrl.views">{{view.label}}</a>

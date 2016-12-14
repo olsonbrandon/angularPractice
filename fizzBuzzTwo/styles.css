@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+  text-shadow: 2px 2px 2px #5A9EA6;
+  font-size: 75px;
+  font-family: fantasy, sans-serif;
+}
+#app{
+text-align: center;
+}
+#subtitle{
+  padding-bottom: 50px;
+}
+.input{
+  display: inline-block;
+}
+.circle {
+    background-color: #E3E5E6;
+    text-align: center;
+    line-height: 210px;
+    border-radius: 100%;
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    font-family: Comic Sans MS;
+}
+.circle.fizz-buzz{
+  background-color: #67BEDB;
+}
+.circle.fizz{
+  background-color: #BE67DB;
+}
+.circle.buzz{
+  background-color: #7DE34F;
+}

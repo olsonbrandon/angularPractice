@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <h1>Welcome to FizzBuzz!</h1>
+    <body id="app" ng-app="FizzBuzz" ng-controller="FizzBuzzController as fb">
+        <div ng-repeat="result in fb.results" ng-class="result.classes">
+            {{result.val}}
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="app.js"></script>
+        <script src="fizzBuzzCtrl.js"></script>
+        <script src="fizzBuzzService.js"></script>
+    </body>
+</html>
